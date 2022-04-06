@@ -3,7 +3,7 @@
 HR-VPTM is a script bundle that feeds light field microscopy (LFM) data to volumetric particle tracking (PT) for reconstructing 3D volumetric displacements and strains from LFM images of fluorescent microparticles.  
 
 ## Purpose
-This repository contains the MATLAB m-files for LFM2PT along with synthetic example images. The algorithm relies on two primary precursor code: oLaF (https://gitlab.lrz.de/IP/olaf) and SerialTrack (early development fork from https://github.com/FranckLab/SerialTrack, which in turn uses modified part2track https://github.com/Part2Track/Part2Track and TPT https://github.com/FranckLab/T-PT subfunctions).
+This repository contains the MATLAB m-files for HR-VPTM along with synthetic example images. The algorithm relies on two primary precursor code: oLaF (https://gitlab.lrz.de/IP/olaf) and SerialTrack (early development fork from https://github.com/FranckLab/SerialTrack, which in turn uses modified part2track https://github.com/Part2Track/Part2Track and TPT https://github.com/FranckLab/T-PT subfunctions).
 
 ## Running LFM2PT
 
@@ -48,7 +48,7 @@ Images follow the basic guidelines from the oLaF software. In short: the optical
 ### Running including example case
 1. Make sure that the main files are in the current (working) directory for MATLAB.
 2. Copy the desired test images `test_images` directory as needed.
-3. Run the `main_LFM2PT.m` script and follow prompts. 
+3. Run the `main_HRVPTM.m` script and follow prompts. 
 
 *Health warning* Each reconstructed volume image is saved into the data directory alongside the .tifs in .mat containers. This can become a inconvenient amount of data to store and transfer - for the synthetic test cases each image is 1.3 GB, and the sequence for the shear experiment data totals about 81 GB.
 
