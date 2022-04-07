@@ -8,7 +8,7 @@ This repository contains the MATLAB m-files for HR-VPTM along with synthetic exa
 ## Running LFM2PT
 
 ### Software Required
-Development and test occurred in Matlab versions 2019a - 2021a. Older versions may work but have not been tested.
+Development and test occurred in Matlab versions 2019a - 2021a on Windows 10. Other versions may work but have not been tested.
 
 The following Toolboxes are required: 
 * 'System Identification Toolbox'
