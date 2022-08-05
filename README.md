@@ -5,12 +5,12 @@ HR-VPTM is a script bundle that feeds light field microscopy (LFM) data to volum
 ## Purpose
 This repository contains the MATLAB m-files for HR-VPTM along with synthetic example images. The algorithm relies on two primary precursor code: oLaF (https://gitlab.lrz.de/IP/olaf) and SerialTrack (early development fork from https://github.com/FranckLab/SerialTrack, which in turn uses modified part2track https://github.com/Part2Track/Part2Track and TPT https://github.com/FranckLab/T-PT subfunctions).
 
-## Running LFM2PT
+## Running HR-VPTM
 
 ### Software Required
 Development and test occurred in Matlab versions 2019a - 2021a on Windows 10. Other versions may work but have not been tested.
 
-The following Toolboxes are required: 
+The following Toolboxes are dependancies: 
 * 'System Identification Toolbox'
 * 'Signal Processing Toolbox'
 * 'Image Processing Toolbox'
@@ -22,7 +22,7 @@ The following Toolboxes are required:
 * 'MATLAB Parallel Server'
 * 'Polyspace Bug Finder'
 
-Workarounds may be possible - attempt at your own risk. 
+Workarounds for many of these may be possible. 
 
 Other external tools that may be helpful include:
 * inpaint_nans and inpaint_nans3d by John D'Errico (2008) (https://www.mathworks.com/matlabcentral/fileexchange?q=inpaint+nans and https://www.mathworks.com/matlabcentral/fileexchange/21214-inpainting-nan-elements-in-3-d)
