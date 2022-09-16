@@ -54,6 +54,7 @@ Images follow the basic guidelines from the oLaF software. In short: the optical
 
 ## Cite
 If used please cite:
+Buyukozturk, S., Landauer, A., Summey, L. et al. High-Speed, 3D Volumetric Displacement and Strain Mapping in Soft Materials Using Light Field Microscopy. Exp Mech (2022). https://doi.org/10.1007/s11340-022-00885-z
 
 
 ## Contact and support
